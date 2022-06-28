@@ -8,3 +8,4 @@ host = r"C:\Users\Administrador\github\working"
 repo = Repo(host)
 repo.git.add(all=True)
 repo.index.commit(x)
+repo.git.push()
